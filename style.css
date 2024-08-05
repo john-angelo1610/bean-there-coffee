@@ -30,11 +30,11 @@ h1{
 }
 
 h2{
-    font-size: 36px;
+    font-size: 40px;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 36px;
     line-height: 100%;
 }
 
@@ -50,7 +50,6 @@ header{
     background-color: #5A4939;
     padding: 8px 0;
     border-bottom: 1px solid #F9F4EF;
-
 }
 
 header img{
@@ -323,12 +322,40 @@ footer .social-icons a:hover{
 }
 
 @media (min-width: 0px) and (max-width: 767.98px){
+    h1{
+        font-size: 44px;
+    }
+    
+    h2{
+        font-size: 36px;
+    }
+    
+    h3{
+        font-size: 32px;
+    }
+    
+    h4{
+        font-size: 26px;
+    }
+    
+    h5{
+        font-size: 22px;
+    }
+
     header{
         padding: 8px 28px;
     }
 
-    #hero-section, #about-us, #menu, #why-choose-us, #testimonials{
+    header ul{
+        margin-top: 20px;
+    }
+
+    #hero-section, #about-us, #menu, #why-choose-us, #testimonials, #newsletter, footer{
         padding: 40px 28px;
+    }
+
+    #newsletter .container{
+        width: 100% !important;
     }
 
     #hero-section{
@@ -343,6 +370,10 @@ footer .social-icons a:hover{
 @media (max-width: 991.98px) {
     h1{
         line-height: 140%;
+    }
+
+    header ul{
+        padding-bottom: 20px;
     }
 
     #menu .coffee{
