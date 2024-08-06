@@ -376,6 +376,10 @@ footer .social-icons a:hover{
         padding-bottom: 20px;
     }
 
+    #about-us #team{
+        width: 100% !important;
+    }
+
     #menu .coffee{
         width: 47%;
     }
