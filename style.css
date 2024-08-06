@@ -137,13 +137,11 @@ body{
 }
 
 #team{
-    flex: 1 0 0;
-    align-self: stretch;
     border-radius: 8px;
     border: 2px solid #5A4939;
     background: url("assets/about-us.jpg") lightgray 50% / cover no-repeat;
     box-shadow: 8px 8px 0px 0px #5A4939;
-    padding: 200px;
+    padding-top: 400px;
 }
 
 #menu h2{
@@ -376,8 +374,8 @@ footer .social-icons a:hover{
         padding-bottom: 20px;
     }
 
-    #about-us #team{
-        width: 100% !important;
+    #team{
+        padding-top: 288px;
     }
 
     #menu .coffee{
