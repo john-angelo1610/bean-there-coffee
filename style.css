@@ -137,6 +137,8 @@ body{
 }
 
 #team{
+    flex: 1 0 0;
+    align-self: stretch;
     border-radius: 8px;
     border: 2px solid #5A4939;
     background: url("assets/about-us.jpg") lightgray 50% / cover no-repeat;
