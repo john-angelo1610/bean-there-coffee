@@ -384,6 +384,10 @@ footer .social-icons a:hover{
         width: 47%;
     }
 
+    #why-choose-us h2, #testimonials h2 {
+        margin-bottom: 20px !important;
+    }
+
     #why-choose-us .row .col-lg-4{
         flex-direction: row !important;
     }
