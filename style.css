@@ -181,12 +181,6 @@ body{
     font-weight: 700;
 }
 
-#why-choose-us .row{
-    border: 1px solid #69573F;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
 #why-choose-us h2{
     margin-bottom: 40px;
 }
@@ -196,9 +190,13 @@ body{
     gap: 12px;
 }
 
+#why-choose-us .row .col-lg-4.flex-column{
+    border: 1px solid #5A4939;
+}
+
 #why-choose-us #barista-woman{
-    border-right: 1px solid #5A4939;
-    border-left: 1px solid #5A4939;
+    border-top: 1px solid #5A4939;
+    border-bottom: 1px solid #5A4939;
     background: url("assets/why-choose-us.jpg") lightgray 0px 0px / 100% 100% no-repeat;
 }
 
@@ -365,6 +363,23 @@ footer .social-icons a:hover{
     #hero-section .container div{
         width: 100%;
     }
+
+    #why-choose-us .row .col-lg-4 .box{
+        width: 100% !important;
+    }
+
+    #why-choose-us .row .col-lg-4 .box:first-child{
+        border: none !important;
+        border-bottom: 1px solid #69573F !important;
+    }
+
+    #newsletter .input-group {
+        display: none;
+    }
+
+    #newsletter input, #newsletter button{
+        display: block !important;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -398,9 +413,12 @@ footer .social-icons a:hover{
 
     #why-choose-us #barista-woman{
         height: 800px;
-        border: none;
-        border-top: 1px solid #5A4939;
-        border-bottom: 1px solid #5A4939;
+        border: 1px solid #69573F;
+        order: 3;
+    }
+
+    #why-choose-us .row .col-lg-4.flex-column{
+        border-bottom: none;
     }
 
     #why-choose-us .row .col-lg-4 .box:first-child{
