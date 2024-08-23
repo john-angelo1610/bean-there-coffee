@@ -148,6 +148,7 @@ body{
 
 #menu h2{
     margin-bottom: 8px;
+    color: #020826;
 }
 
 #menu .container > p{
@@ -211,6 +212,7 @@ body{
 
 #testimonials h2{
     margin-bottom: 40px;
+    color: #020826;
 }
 
 #testimonials .review-card{
